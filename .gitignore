@@ -1,0 +1,18 @@
+
+data/raw_zips/
+data/raw_csv/
+data/processed/
+
+.venv/
+.env
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+*.ipynb_checkpoints
+
+# OS / EDITOR
+.DS_Store
+Thumbs.db
+.vscode/
