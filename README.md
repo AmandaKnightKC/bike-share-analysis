@@ -10,6 +10,7 @@ The focus of this project is not creating a report — it is rebuilding the anal
 ---
 
 ## Purpose of This Project
+
 This project demonstrates the ability to:
 
 - ingest raw operational data files
@@ -45,7 +46,7 @@ Skills demonstrated:
 
 bike-share-analysis/
 │
- 1. data
+   data
 │   ├── processed
 │   ├── raw_csv
 │   └── raw_zips
@@ -58,7 +59,6 @@ bike-share-analysis/
 ├── sql
 └── src
 
-
 ---
 
 ## Data Source
@@ -66,6 +66,7 @@ bike-share-analysis/
 Public bike-share trip records (Cyclistic/Divvy dataset).
 
 Each record contains:
+
 - ride start and end timestamps
 - ride duration
 - station locations
@@ -86,13 +87,15 @@ Anyone can recreate the database and reproduce the analysis.
 ---
 
 ## Setup
+
 ### Clone
 
-git clone https://github.com/YOUR_USERNAME/bike-share-analysis.git
+git clone <https://github.com/YOUR_USERNAME/bike-share-analysis.git>
 
 cd bike-share-analysis
 
 ### Create environment
+
 Mac/Linux/WSL:
 python -m venv .venv
 source .venv/bin/activate
@@ -101,14 +104,16 @@ Windows:
 python -m venv .venv
 .venv\Scripts\activate
 
-
 ### Install dependencies
+
 pip install -r requirements.txt
 
 ### Configure
+
 cp .env.example .env
 
 ### Add data
+
 Place downloaded monthly trip files into:
 
 data/raw_zips/

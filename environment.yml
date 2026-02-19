@@ -1,0 +1,11 @@
+name: bike-share-analysis
+channels:
+  - conda-forge
+dependencies:
+  - pandas
+  - duckdb
+  - jupyter
+  - matplotlib
+  - pyarrow
+  - python-dotenv
+prefix: /home/cleavertbt/miniforge3/envs/bikeshare_env
