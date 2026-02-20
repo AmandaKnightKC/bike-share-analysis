@@ -3,7 +3,6 @@ data/raw_zips/
 data/raw_csv/
 data/processed/
 
-.venv/
 .env
 
 __pycache__/
