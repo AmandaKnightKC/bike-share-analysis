@@ -44,20 +44,27 @@ Skills demonstrated:
 
 ## Project Structure
 
+```
 bike-share-analysis/
-│
-   data
+├── data
 │   ├── processed
 │   ├── raw_csv
 │   └── raw_zips
-├── LICENSE
-├── README.md
 ├── docs
 ├── notebooks
-├── reports-- generated charts
-├── requirements.txt
+├── reports
+├── scripts
+│   └── extract_data.sh
 ├── sql
+│   ├── 01a_schema_create_table.sql
+│   ├── 01b_reset_tables.sql
+│   ├── 02_load_raw.sql
+│   ├── 03_create_clean_view.sql
+│   ├── 03_quality_checks.sql
+│   ├── 04_build_facts_table.sql
+│   └── 04_checkcount_query.sql
 └── src
+```
 
 ---
 
