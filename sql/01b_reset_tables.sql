@@ -1,5 +1,7 @@
+-- This script truncates all tables in the lead_scoring database to reset them for a new data load.
 USE lead_scoring;
 SET FOREIGN_KEY_CHECKS = 0;
+-- Disable foreign key checks to allow truncating tables with dependencies without errors.
 TRUNCATE TABLE agent_data;
 TRUNCATE TABLE agent_quota;
 TRUNCATE TABLE applications;
