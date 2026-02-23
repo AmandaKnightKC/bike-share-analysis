@@ -1,8 +1,8 @@
 /* 02_load_raw_one_month.sql
-   Purpose: Load ONE monthly CSV into trips_raw.
-   Note: Assumes Windows line endings (\r\n) and timestamps with milliseconds.
-*/
-
+ Purpose: Load ONE monthly CSV into trips_raw.
+ Note: Assumes Windows line endings (\r\n) and timestamps with milliseconds.
+ Test that it works and then use shell script to loop through all files in the directory.
+ */
 USE bike_share;
 SELECT DATABASE();
 -- TRUNCATE TABLE trips_raw;
@@ -35,5 +35,3 @@ SET ride_id = TRIM(ride_id),
   start_lng = NULLIF(@start_lng, ''),
   end_lat = NULLIF(@end_lat, ''),
   end_lng = NULLIF(@end_lng, '');
-
-  
