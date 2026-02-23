@@ -1,0 +1,13 @@
+202501-divvy-tripdata.csv : 138689
+202502-divvy-tripdata.csv : 151880
+202503-divvy-tripdata.csv : 298155
+202504-divvy-tripdata.csv : 371341
+202505-divvy-tripdata.csv : 502456
+202506-divvy-tripdata.csv : 678904
+202507-divvy-tripdata.csv : 763432
+202508-divvy-tripdata.csv : 790177
+202509-divvy-tripdata.csv : 714759
+202510-divvy-tripdata.csv : 646039
+202511-divvy-tripdata.csv : 356628
+202512-divvy-tripdata.csv : 140534
+
