@@ -1,5 +1,4 @@
-#!/bin/bash
-
+!/usr/bin/env bash # shebang to specify the script should be run with bash
 # raw csv files downloaded directly into Linux folder from https://divvy-tripdata.s3.amazonaws.com/index.html
 # create destination safely
 mkdir -p data/raw_csv

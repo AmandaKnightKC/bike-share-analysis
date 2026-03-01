@@ -1,3 +1,4 @@
+!/usr/bin/env bash
 DB="bike_share"
 DB_USER="cms_analyst"
 
